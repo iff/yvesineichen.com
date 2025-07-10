@@ -214,18 +214,29 @@ export default function CV() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold mb-2">Aver.rs</h3>
-              <p className="text-gray-700 mb-2">Boulder gym management tool.</p>
+              <p className="text-gray-700 mb-2">
+                A Rust-based backend that implements operational transformation
+                (OT) for collaborative applications, specifically designed to
+                work with multiple climbing gym management systems through a
+                single API.
+              </p>
               <div className="flex flex-wrap gap-2">
-                {["Rust", "TypeScript", "Firestore", "Nix", "Git"].map(
-                  (tech) => (
-                    <span
-                      key={tech}
-                      className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded"
-                    >
-                      {tech}
-                    </span>
-                  ),
-                )}
+                {[
+                  "Rust",
+                  "TypeScript",
+                  "Firestore",
+                  "Nix",
+                  "Git",
+                  "Docker",
+                  "Google Cloud",
+                ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
