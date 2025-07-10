@@ -43,8 +43,8 @@ export default function CV() {
             and system-level optimization, currently exploring Rust in my free
             time with hopes of incorporating it into future professional
             projects. Strong advocate for clean code, test-driven development,
-            using Git, Nix, CI. Always eager to learn new technologies and solve
-            complex problems.
+            using Git, Nix, and CI. Always eager to learn new technologies and
+            solve complex problems.
           </p>
         </section>
 
@@ -130,9 +130,11 @@ export default function CV() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-lg font-semibold mb-3">Frontend</h3>
+              <h3 className="text-lg font-semibold mb-3">
+                Programming Languages
+              </h3>
               <div className="flex flex-wrap gap-2">
-                {["Python", "C++", "Rust"].map((skill) => (
+                {["Python", "C++", "Rust", "Nix"].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
@@ -144,9 +146,17 @@ export default function CV() {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-3">Backend</h3>
+              <h3 className="text-lg font-semibold mb-3">HPC and ML</h3>
               <div className="flex flex-wrap gap-2">
-                {["Nix"].map((skill) => (
+                {[
+                  "MPI",
+                  "OpenMP",
+                  "CUDA",
+                  "TensorFlow",
+                  "PyTorch",
+                  "CoreML/LiteRT/ONNX",
+                  "distributed computing",
+                ].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
