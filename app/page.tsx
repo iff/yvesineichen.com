@@ -1,34 +1,35 @@
-import { Mail, Phone, MapPin, Globe, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Globe, Github, Linkedin } from "lucide-react";
 
 export default function CV() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-6 py-12">
-        {/* Header */}
         <header className="mb-12">
           <h1 className="text-4xl font-bold mb-2">Yves Ineichen</h1>
           <p className="text-xl text-gray-600 mb-6">Software Engineer</p>
 
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4" />
-              <span>iff@yvesineichen.com</span>
-            </div>
-            <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
               <span>Zurich, Switzerland</span>
             </div>
             <div className="flex items-center gap-2">
-              <Globe className="w-4 h-4" />
-              <span>yvesineichen.dev</span>
+              <Mail className="w-4 h-4" />
+              <span>iff@yvesineichen.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Github className="w-4 h-4" />
-              <span>github.com/iff</span>
+              <span>
+                <a href="https://github.com/iff">github.com/iff</a>
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <Linkedin className="w-4 h-4" />
-              <span>linkedin.com/in/yvesineichen</span>
+              <span>
+                <a href="https://linkedin.com/in/yvesineichen">
+                  linkedin.com/in/yvesineichen
+                </a>
+              </span>
             </div>
           </div>
         </header>
