@@ -1,4 +1,4 @@
-import { Mail, MapPin, Globe, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
 export default function CV() {
   return (
@@ -34,7 +34,6 @@ export default function CV() {
           </div>
         </header>
 
-        {/* About */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 border-b border-gray-200 pb-2">
             About
@@ -49,7 +48,6 @@ export default function CV() {
           </p>
         </section>
 
-        {/* Experience */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Experience
@@ -91,7 +89,6 @@ export default function CV() {
           </div>
         </section>
 
-        {/* Education */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Education
@@ -205,7 +202,6 @@ export default function CV() {
           </div>
         </section>
 
-        {/* Projects */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Featured Projects
@@ -218,7 +214,8 @@ export default function CV() {
                 A Rust-based backend that implements operational transformation
                 (OT) for collaborative applications, specifically designed to
                 work with multiple climbing gym management systems through a
-                single API.
+                single API. Wrapping Mochi (https://mochi.cards/) API using
+                reqwest to manage my Roam Resarch to Mochi sync.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
@@ -239,12 +236,29 @@ export default function CV() {
                 ))}
               </div>
             </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Muchi</h3>
+              <p className="text-gray-700 mb-2">
+                Wrapping Mochi (https://mochi.cards/) API using reqwest (no
+                async) to synchronise my Roam Resarch flashcards to Mochi.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Rust", "Nix", "Git"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>© 2025 Yves Ineichen. All rights reserved.</p>
+          <p>last update: 11th July 2025</p>
         </footer>
       </div>
     </div>
