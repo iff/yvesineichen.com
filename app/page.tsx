@@ -65,9 +65,25 @@ export default function CV() {
                 <span className="text-sm text-gray-500">2018 - 2025</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>this</li>
-                <li>that</li>
-                <li>and more</li>
+                <li>
+                  Computer vision: classification, pose estimation, pose
+                  refinement using TensorFlow and PyTorch.
+                </li>
+                <li>
+                  Managing single/multi-gpu experiments (as code) on Kubernetes.
+                </li>
+                <li>
+                  Optimizing and exporting networks for on device inference
+                  using LiteRT/CoreML.
+                </li>
+                <li>
+                  Responsible for software engineering practices: ci (gha),
+                  testing, release management and tooling.
+                </li>
+                <li>
+                  Python, uv, ruff, AWS, convolutional neural networks,
+                  transformers...
+                </li>
               </ul>
             </div>
 
