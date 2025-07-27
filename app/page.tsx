@@ -82,7 +82,7 @@ export default function CV() {
                 </li>
                 <li>
                   Python, uv, ruff, AWS, convolutional neural networks,
-                  transformers...
+                  transformers.
                 </li>
               </ul>
             </div>
@@ -98,8 +98,16 @@ export default function CV() {
                 <span className="text-sm text-gray-500">2012 - 2016</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>bla</li>
-                <li>bli</li>
+                <li>Graph analytics</li>
+                <li>
+                  Randomized linear algebra:{" "}
+                  <a href="https://github.com/xdata-skylark/libskylark">
+                    libskylark
+                  </a>
+                  .
+                </li>
+                <li>Text analytics data pipeline</li>
+                <li>C++, MPI, Python, Java, Kafka, NLP</li>
               </ul>
             </div>
           </div>
@@ -120,7 +128,10 @@ export default function CV() {
               </div>
               <span className="text-sm text-gray-500">2009 - 2012</span>
             </div>
-            <p className="text-gray-700">HPC, ...</p>
+            <p className="text-gray-700">
+              Parallel multi-objective optimization with applications to
+              particle accelerator design.
+            </p>
           </div>
           <div>
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
@@ -132,11 +143,13 @@ export default function CV() {
               </div>
               <span className="text-sm text-gray-500">2002 - 2008</span>
             </div>
-            <p className="text-gray-700">HPC, ...</p>
+            <p className="text-gray-700">
+              Master in computational science with a minor in compiler design.
+              Focusing on HPC numerical simulations.
+            </p>
           </div>
         </section>
 
-        {/* Skills */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Skills
