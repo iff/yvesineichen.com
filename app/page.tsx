@@ -245,8 +245,7 @@ export default function CV() {
                 A Rust-based backend that implements operational transformation
                 (OT) for collaborative applications, specifically designed to
                 work with multiple climbing gym management systems through a
-                single API. Wrapping Mochi (https://mochi.cards/) API using
-                reqwest to manage my Roam Resarch to Mochi sync.
+                single API.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
