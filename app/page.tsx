@@ -107,7 +107,9 @@ export default function CV() {
                   .
                 </li>
                 <li>Text analytics data pipeline</li>
-                <li>C++, MPI, Python, Java, Kafka, NLP</li>
+                <li>
+                  C++, MPI, Python, Java, Kafka, NLP, distributed computing
+                </li>
               </ul>
             </div>
           </div>
@@ -145,7 +147,7 @@ export default function CV() {
             </div>
             <p className="text-gray-700">
               Master in computational science with a minor in compiler design.
-              Focusing on HPC numerical simulations.
+              Focusing on parallel numerical simulations (HPC).
             </p>
           </div>
         </section>
