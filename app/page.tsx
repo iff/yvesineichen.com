@@ -240,7 +240,7 @@ export default function CV() {
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-lg font-semibold mb-2">Aver.rs</h3>
+              <h3 className="text-lg font-semibold mb-2">ave.rs</h3>
               <p className="text-gray-700 mb-2">
                 A Rust-based backend that implements operational transformation
                 (OT) for collaborative applications, specifically designed to
@@ -268,7 +268,7 @@ export default function CV() {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-2">Muchi</h3>
+              <h3 className="text-lg font-semibold mb-2">muchi</h3>
               <p className="text-gray-700 mb-2">
                 Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
                 async) to synchronise my Roam Resarch flashcards to Mochi.
