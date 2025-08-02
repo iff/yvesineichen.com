@@ -287,6 +287,28 @@ export default function CV() {
           </div>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
+            Beyond Code
+          </h2>
+          
+          <div className="space-y-4 text-gray-700">
+            <div>
+              <p>
+                Coffee enthusiast who co-founded a <a href="https://roestlabor.coffee">coffee roastery</a>,
+                combining passion for quality coffee with entrepreneurial spirit.
+              </p>
+            </div>
+            
+            <div>
+              <p>
+                Ergonomics optimizer with a focus on split keyboards (Moonlander and Voyager),
+                constantly refining layouts and keybindings for efficiency and comfort.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
           <p>last update: 11th July 2025</p>
         </footer>
