@@ -270,7 +270,7 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">Muchi</h3>
               <p className="text-gray-700 mb-2">
-                Wrapping Mochi (https://mochi.cards/) API using reqwest (no
+                Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
                 async) to synchronise my Roam Resarch flashcards to Mochi.
               </p>
               <div className="flex flex-wrap gap-2">
