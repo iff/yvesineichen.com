@@ -201,7 +201,7 @@ export default function CV() {
                 Tools & Technologies
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["Git", "Docker", "AWS", "Google Cloud"].map((skill) => (
+                {["Nix/NixOS", "Git", "Docker", "AWS", "Google Cloud"].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
@@ -321,8 +321,9 @@ export default function CV() {
             
             <div>
               <p>
-                Ergonomics optimizer with a focus on split keyboards (Moonlander and Voyager),
-                constantly refining layouts and keybindings for efficiency and comfort.
+                Ergonomics optimizer with a focus on split keyboards (Moonlander and <a href="https://www.zsa.io/voyager">Voyager</a>),
+                constantly refining <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">layouts and keybindings</a>
+                for efficiency and comfort.
               </p>
             </div>
           </div>
