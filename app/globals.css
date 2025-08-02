@@ -90,4 +90,12 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  a {
+    text-decoration: underline;
+    text-decoration-color: hsl(0 0% 80%);
+    text-underline-offset: 2px;
+  }
+  .dark a {
+    text-decoration-color: hsl(0 0% 30%);
+  }
 }
