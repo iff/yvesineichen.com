@@ -284,6 +284,25 @@ export default function CV() {
                 ))}
               </div>
             </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">nihilistic-nvim</h3>
+              <p className="text-gray-700 mb-2">
+                My cosy <a href="https://github.com/iff/nihilistic-nvim">neovim configuration</a> with 
+                lots of customizations. Makes me feel at home when writing code.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["lua", "Nix", "Git"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
           </div>
         </section>
 
