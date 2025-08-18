@@ -73,16 +73,16 @@ export default function CV() {
                   Managing single/multi-gpu experiments (as code) on Kubernetes.
                 </li>
                 <li>
-                  Optimizing and exporting networks for on device inference
+                  Optimizing/exporting networks for on device inference
                   using LiteRT/CoreML.
                 </li>
                 <li>
-                  Responsible for software engineering practices: ci (gha),
+                  Responsible for software engineering practices: CI (gha),
                   testing, release management and tooling.
                 </li>
                 <li>
-                  Python, uv, ruff, AWS, convolutional neural networks,
-                  transformers.
+                  Technologies: Python (uv, ruff, basedpyright), Docker, AWS, 
+                  convolutional neural networks, transformers.
                 </li>
               </ul>
             </div>
@@ -98,17 +98,16 @@ export default function CV() {
                 <span className="text-sm text-gray-500">2012 - 2016</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>Graph analytics</li>
                 <li>
-                  Randomized linear algebra:{" "}
+                  Contributing to{" "}
                   <a href="https://github.com/xdata-skylark/libskylark">
                     libskylark
-                  </a>
-                  .
+                  </a>: an open source software library for distributed randomized numerical 
+                  linear algebra with applications to machine learning and statistical data analysis.
                 </li>
+                <li>Graph analytics</li>
                 <li>Text analytics data pipeline</li>
-                <li>
-                  C++, MPI, Python, Java, Kafka, NLP, distributed computing
+                <li>Technologies: C++, OpenMP/MPI, Python, Java, Kafka, NLP, distributed computing.
                 </li>
               </ul>
             </div>
@@ -330,7 +329,7 @@ export default function CV() {
         </section>
 
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>last update: 11th July 2025</p>
+          <p>last update: 18th August 2025</p>
         </footer>
       </div>
     </div>
