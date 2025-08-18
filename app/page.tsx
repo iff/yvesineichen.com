@@ -291,10 +291,10 @@ export default function CV() {
                 lots of customizations. Makes me feel at home when writing code.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["lua", "Nix", "Git"].map((tech) => (
+                {["Lua", "Nix", "Git"].map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                    className="px-2 py-1 bg-orange-100 text-orange-700 text-xs rounded"
                   >
                     {tech}
                   </span>
