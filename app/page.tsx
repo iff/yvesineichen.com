@@ -134,8 +134,9 @@ export default function CV() {
               particle accelerator design.
             </p>
           </div>
+
           <div>
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 mt-8">
               <div>
                 <h3 className="text-lg font-semibold">
                   Master in Computer Science
