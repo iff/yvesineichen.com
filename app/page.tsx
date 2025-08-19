@@ -43,8 +43,12 @@ export default function CV() {
             and system-level optimization, currently exploring Rust in my free
             time with hopes of incorporating it into future professional
             projects. Strong advocate for clean code, test-driven development,
-            using Git, Nix, and CI. Always eager to learn new technologies and
-            solve complex problems.
+            using Git, Nix, and CI.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            What really drives me is the challenge of squeezing performance out of 
+            complex systems. Programming isn't just my job - it's my passion, and 
+            I love exploring the endless possibilities it offers.
           </p>
         </section>
 
@@ -306,6 +310,28 @@ export default function CV() {
           </div>
         </section>
 
+        <section className="mb-12 hidden">
+          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
+            Awards
+          </h2>
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+            <div>
+              <h3 className="text-lg font-semibold">
+                Gordon Bell Prize
+              </h3>
+            </div>
+            <span className="text-sm text-gray-500">2015</span>
+          </div>
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+            <div>
+              <h3 className="text-lg font-semibold">
+                PRACE Award
+              </h3>
+            </div>
+            <span className="text-sm text-gray-500">2012</span>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Beyond Code
@@ -326,11 +352,18 @@ export default function CV() {
                 for efficiency and comfort.
               </p>
             </div>
+
+            <div>
+              <p>
+                I value family life deeply, and I reserve quiet moments for bouldering, sport‑climbing, <a href="https://iff.io">photography</a>, 
+                reading, and nurturing my curiosity by acquiring new skills and knowledge.
+              </p>
+            </div>
           </div>
         </section>
 
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>last update: 18th August 2025</p>
+          <p>last update: 20th August 2025</p>
         </footer>
       </div>
     </div>
