@@ -135,7 +135,7 @@ export default function CV() {
             </div>
             <p className="text-gray-700">
               Parallel multi-objective optimization with applications to
-              particle accelerator design.
+              particle accelerator design
             </p>
           </div>
 
@@ -150,8 +150,8 @@ export default function CV() {
               <span className="text-sm text-gray-500">2002 - 2008</span>
             </div>
             <p className="text-gray-700">
-              Master in computational science with a minor in compiler design.
-              Focusing on parallel numerical simulations (HPC).
+              Master in computational science with a minor in compiler design
+              focusing on parallel numerical simulations (HPC)
             </p>
           </div>
         </section>
@@ -348,7 +348,7 @@ export default function CV() {
             <div>
               <p>
                 Ergonomics optimizer with a focus on split keyboards (Moonlander and <a href="https://www.zsa.io/voyager">Voyager</a>),
-                constantly refining <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">layouts and keybindings</a>
+                constantly refining <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">layouts and keybindings</a>{" "}
                 for efficiency and comfort.
               </p>
             </div>
