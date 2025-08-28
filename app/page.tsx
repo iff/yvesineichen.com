@@ -109,8 +109,8 @@ export default function CV() {
                   </a>: an open source software library for distributed randomized numerical 
                   linear algebra with applications to machine learning and statistical data analysis.
                 </li>
-                <li>Graph analytics</li>
-                <li>Text analytics data pipeline</li>
+                <li>Graph analytics.</li>
+                <li>Text analytics data pipeline.</li>
                 <li>Technologies: C++, OpenMP/MPI, Python, Java, Kafka, NLP, distributed computing.
                 </li>
               </ul>
@@ -275,7 +275,7 @@ export default function CV() {
               <h3 className="text-lg font-semibold mb-2">muchi</h3>
               <p className="text-gray-700 mb-2">
                 Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
-                async) to synchronise my Roam Resarch flashcards to Mochi.
+                async) to synchronise my Roam Research flashcards to Mochi.
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
