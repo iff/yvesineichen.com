@@ -246,7 +246,7 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">ave.rs</h3>
               <p className="text-gray-700 mb-2">
-                A Rust-based backend that implements operational transformation
+                A Rust-based <a href="https://github.com/iff/ave.rs">backend</a> that implements operational transformation
                 (OT) for collaborative applications, specifically designed to
                 work with multiple climbing gym management systems through a
                 single API.
@@ -276,6 +276,23 @@ export default function CV() {
               <p className="text-gray-700 mb-2">
                 Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
                 async) to synchronise my Roam Research flashcards to Mochi.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Rust", "Nix", "Git"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-2">osh-oxy</h3>
+              <p className="text-gray-700 mb-2">
+                Simple (and still very basic) cli tool to search my shell histories using <a href="https://github.com/junegunn/fzf">fzf</a>. 
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
