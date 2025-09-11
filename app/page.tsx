@@ -310,7 +310,7 @@ export default function CV() {
           </div>
         </section>
 
-        <section className="mb-12 hidden">
+        <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Awards
           </h2>
@@ -369,7 +369,7 @@ export default function CV() {
         </section>
 
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>last update: 20th August 2025</p>
+          <p>last update: 11th September 2025</p>
         </footer>
       </div>
     </div>
