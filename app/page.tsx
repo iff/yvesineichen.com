@@ -292,7 +292,7 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">osh-oxy</h3>
               <p className="text-gray-700 mb-2">
-                Simple (and still very basic) cli tool to search my shell histories using <a href="https://github.com/junegunn/fzf">fzf</a>. 
+                Simple (and still very basic) <a href="https://github.com/iff/osh-oxy">cli tool</a> to search my shell histories using <a href="https://github.com/junegunn/fzf">fzf</a>. 
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
