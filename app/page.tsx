@@ -271,7 +271,7 @@ export default function CV() {
               </div>
             </div>
 
-            <div>
+            <div className="hidden">
               <h3 className="text-lg font-semibold mb-2">muchi</h3>
               <p className="text-gray-700 mb-2">
                 Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
