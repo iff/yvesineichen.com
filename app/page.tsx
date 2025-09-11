@@ -319,6 +319,9 @@ export default function CV() {
               <h3 className="text-lg font-semibold">
                 Gordon Bell Prize
               </h3>
+              <p className="text-gray-700 mb-2">
+                "An Extreme-Scale Implicit Solver for Complex-PDEs: Highly Heterogeneous Flow in Earth’s Mantle"
+              </p>
             </div>
             <span className="text-sm text-gray-500">2015</span>
           </div>
@@ -327,6 +330,9 @@ export default function CV() {
               <h3 className="text-lg font-semibold">
                 PRACE Award
               </h3>
+              <p className="text-gray-700 mb-2">
+                "A Fast and Scalable Low Dimensional Solver for Charged Particle Dynamics in Large Particle Accelerators"
+              </p>
             </div>
             <span className="text-sm text-gray-500">2012</span>
           </div>
