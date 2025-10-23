@@ -40,10 +40,10 @@ export default function CV() {
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Passionate about high-performance computing, distributed systems,
-            and system-level optimization, currently exploring Rust in my free
-            time with hopes of incorporating it into future professional
-            projects. Strong advocate for clean code, test-driven development,
-            using Git, Nix, and CI.
+            and system-level optimization, currently dedicating my time to
+            deepening my Rust expertise through personal projects, open-source
+            contributions, and continuous learning. Strong advocate for clean code,
+            test-driven development, using Git, Nix, and CI.
           </p>
           <p className="text-gray-700 leading-relaxed">
             What really drives me is the challenge of squeezing performance out of 
