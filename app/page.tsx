@@ -91,7 +91,7 @@ export default function CV() {
               </ul>
             </div>
 
-            <div>
+            <div className="break-before-page">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
                 <div>
                   <h3 className="text-lg font-semibold">
@@ -342,7 +342,7 @@ export default function CV() {
             </div>
             <span className="text-sm text-gray-500">2015</span>
           </div>
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 break-before-page">
             <div>
               <h3 className="text-lg font-semibold">
                 PRACE Award
