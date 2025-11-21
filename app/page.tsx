@@ -42,13 +42,13 @@ export default function CV() {
             Passionate about high-performance computing, distributed systems,
             and system-level optimization, currently dedicating my time to
             deepening my Rust expertise through personal projects, open-source
-            contributions, and continuous learning. Strong advocate for clean code,
-            test-driven development, using Git, Nix, and CI.
+            contributions, and continuous learning. Strong advocate for clean
+            code, test-driven development, using Git, Nix, and CI.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            What really drives me is the challenge of squeezing performance out of 
-            complex systems. Programming isn't just my job - it's my passion, and 
-            I love exploring the endless possibilities it offers.
+            What really drives me is the challenge of squeezing performance out
+            of complex systems. Programming isn't just my job - it's my passion,
+            and I love exploring the endless possibilities it offers.
           </p>
         </section>
 
@@ -77,15 +77,15 @@ export default function CV() {
                   Managing single/multi-gpu experiments (as code) on Kubernetes.
                 </li>
                 <li>
-                  Optimizing/exporting networks for on device inference
-                  using LiteRT/CoreML.
+                  Optimizing/exporting networks for on device inference using
+                  LiteRT/CoreML.
                 </li>
                 <li>
                   Responsible for software engineering practices: CI (gha),
                   testing, release management and tooling.
                 </li>
                 <li>
-                  Technologies: Python (uv, ruff, basedpyright), Docker, AWS, 
+                  Technologies: Python (uv, ruff, basedpyright), Docker, AWS,
                   convolutional neural networks, transformers.
                 </li>
               </ul>
@@ -106,12 +106,16 @@ export default function CV() {
                   Contributing to{" "}
                   <a href="https://github.com/xdata-skylark/libskylark">
                     libskylark
-                  </a>: an open source software library for distributed randomized numerical 
-                  linear algebra with applications to machine learning and statistical data analysis.
+                  </a>
+                  : an open source software library for distributed randomized
+                  numerical linear algebra with applications to machine learning
+                  and statistical data analysis.
                 </li>
                 <li>Graph analytics.</li>
                 <li>Text analytics data pipeline.</li>
-                <li>Technologies: C++, OpenMP/MPI, Python, Java, Kafka, NLP, distributed computing.
+                <li>
+                  Technologies: C++, OpenMP/MPI, Python, Java, Kafka, NLP,
+                  distributed computing.
                 </li>
               </ul>
             </div>
@@ -205,7 +209,14 @@ export default function CV() {
                 Tools & Technologies
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["Linux/NixOS", "Git", "bash/zsh", "Docker", "AWS", "Google Cloud"].map((skill) => (
+                {[
+                  "Linux/NixOS",
+                  "Git",
+                  "bash/zsh",
+                  "Docker",
+                  "AWS",
+                  "Google Cloud",
+                ].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
@@ -246,10 +257,10 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">ave.rs</h3>
               <p className="text-gray-700 mb-2">
-                A Rust-based <a href="https://github.com/iff/ave.rs">backend</a> that implements operational transformation
-                (OT) for collaborative applications, specifically designed to
-                work with multiple climbing gym management systems through a
-                single API.
+                A Rust-based <a href="https://github.com/iff/ave.rs">backend</a>{" "}
+                that implements operational transformation (OT) for
+                collaborative applications, specifically designed to work with
+                multiple climbing gym management systems through a single API.
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
@@ -274,8 +285,9 @@ export default function CV() {
             <div className="hidden">
               <h3 className="text-lg font-semibold mb-2">muchi</h3>
               <p className="text-gray-700 mb-2">
-                Wrapping <a href="https://mochi.cards">Mochi</a> API using reqwest (no
-                async) to synchronise my Roam Research flashcards to Mochi.
+                Wrapping <a href="https://mochi.cards">Mochi</a> API using
+                reqwest (no async) to synchronise my Roam Research flashcards to
+                Mochi.
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
@@ -292,7 +304,14 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">osh-oxy</h3>
               <p className="text-gray-700 mb-2">
-                Simple (and still very basic) <a href="https://github.com/iff/osh-oxy">cli tool</a> to search my shell histories using <a href="https://github.com/junegunn/fzf">fzf</a>. 
+                Simple{" "}
+                <a href="https://github.com/iff/osh-oxy">fuzzy finder tui</a> to
+                search my shell histories building on{" "}
+                <a href="https://ratatui.rs/">ratatui</a> and{" "}
+                <a href="https://github.com/skim-rs/fuzzy-matcher">
+                  skim fuzzy matcher algorithm
+                </a>
+                .
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
@@ -309,8 +328,12 @@ export default function CV() {
             <div>
               <h3 className="text-lg font-semibold mb-2">nihilistic-nvim</h3>
               <p className="text-gray-700 mb-2">
-                My cosy <a href="https://github.com/iff/nihilistic-nvim">neovim configuration</a> with 
-                lots of customizations. Makes me feel at home when writing code.
+                My cosy{" "}
+                <a href="https://github.com/iff/nihilistic-nvim">
+                  neovim configuration
+                </a>{" "}
+                with lots of customizations. Makes me feel at home when writing
+                code.
               </p>
               <div className="flex flex-wrap gap-2">
                 {["Lua", "Nix", "Git"].map((tech) => (
@@ -323,7 +346,6 @@ export default function CV() {
                 ))}
               </div>
             </div>
-
           </div>
         </section>
 
@@ -333,22 +355,20 @@ export default function CV() {
           </h2>
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
             <div>
-              <h3 className="text-lg font-semibold">
-                Gordon Bell Prize
-              </h3>
+              <h3 className="text-lg font-semibold">Gordon Bell Prize</h3>
               <p className="text-gray-700 mb-2">
-                "An Extreme-Scale Implicit Solver for Complex-PDEs: Highly Heterogeneous Flow in Earth’s Mantle"
+                "An Extreme-Scale Implicit Solver for Complex-PDEs: Highly
+                Heterogeneous Flow in Earth’s Mantle"
               </p>
             </div>
             <span className="text-sm text-gray-500">2015</span>
           </div>
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 break-before-page">
             <div>
-              <h3 className="text-lg font-semibold">
-                PRACE Award
-              </h3>
+              <h3 className="text-lg font-semibold">PRACE Award</h3>
               <p className="text-gray-700 mb-2">
-                "A Fast and Scalable Low Dimensional Solver for Charged Particle Dynamics in Large Particle Accelerators"
+                "A Fast and Scalable Low Dimensional Solver for Charged Particle
+                Dynamics in Large Particle Accelerators"
               </p>
             </div>
             <span className="text-sm text-gray-500">2012</span>
@@ -359,34 +379,42 @@ export default function CV() {
           <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
             Beyond Code
           </h2>
-          
+
           <div className="space-y-4 text-gray-700">
             <div>
               <p>
-                Coffee enthusiast who co-founded a <a href="https://roestlabor.coffee">coffee roastery</a>,
-                combining passion for quality coffee with entrepreneurial spirit.
+                Coffee enthusiast who co-founded a{" "}
+                <a href="https://roestlabor.coffee">coffee roastery</a>,
+                combining passion for quality coffee with entrepreneurial
+                spirit.
               </p>
             </div>
-            
+
             <div>
               <p>
-                Ergonomics optimizer with a focus on split keyboards (Moonlander and <a href="https://www.zsa.io/voyager">Voyager</a>),
-                constantly refining <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">layouts and keybindings</a>{" "}
+                Ergonomics optimizer with a focus on split keyboards (Moonlander
+                and <a href="https://www.zsa.io/voyager">Voyager</a>),
+                constantly refining{" "}
+                <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">
+                  layouts and keybindings
+                </a>{" "}
                 for efficiency and comfort.
               </p>
             </div>
 
             <div>
               <p>
-                I value family life deeply, and I reserve quiet moments for bouldering, sport‑climbing, <a href="https://iff.io">photography</a>, 
-                reading, and nurturing my curiosity by acquiring new skills and knowledge.
+                I value family life deeply, and I reserve quiet moments for
+                bouldering, sport‑climbing,{" "}
+                <a href="https://iff.io">photography</a>, reading, and nurturing
+                my curiosity by acquiring new skills and knowledge.
               </p>
             </div>
           </div>
         </section>
 
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>last update: 11th September 2025</p>
+          <p>last update: 21th November 2025</p>
         </footer>
       </div>
     </div>
