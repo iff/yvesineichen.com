@@ -6,7 +6,7 @@ export default function CV() {
       <div className="max-w-4xl mx-auto px-6 py-12">
         <header className="mb-12">
           <h1 className="text-4xl font-bold mb-2">Yves Ineichen</h1>
-          <p className="text-xl text-gray-600 mb-6">Software Engineer</p>
+          <p className="text-xl text-gray-600 mb-6">Software Engineering · High Performance Computing · Deep Learning</p>
 
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-2">
