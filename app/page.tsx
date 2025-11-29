@@ -66,7 +66,7 @@ export default function CV() {
                   </h3>
                   <p className="text-gray-600">PTC Inc.</p>
                 </div>
-                <span className="text-sm text-gray-500">2018 - 2025</span>
+                <span className="text-sm text-gray-500">01/2018 - 08/2025</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                 <li>
@@ -99,7 +99,7 @@ export default function CV() {
                   </h3>
                   <p className="text-gray-600">IBM Research - Zurich</p>
                 </div>
-                <span className="text-sm text-gray-500">2012 - 2016</span>
+                <span className="text-sm text-gray-500">02/2013 - 10/2016</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                 <li>
@@ -135,7 +135,7 @@ export default function CV() {
                 </h3>
                 <p className="text-gray-600">ETH Zurich</p>
               </div>
-              <span className="text-sm text-gray-500">2009 - 2012</span>
+              <span className="text-sm text-gray-500">01/2010 - 02/2013</span>
             </div>
             <p className="text-gray-700">
               Parallel multi-objective optimization with applications to
@@ -151,7 +151,7 @@ export default function CV() {
                 </h3>
                 <p className="text-gray-600">ETH Zurich</p>
               </div>
-              <span className="text-sm text-gray-500">2002 - 2008</span>
+              <span className="text-sm text-gray-500">08/2002 - 08/2008</span>
             </div>
             <p className="text-gray-700">
               Master in computational science with a minor in compiler design
