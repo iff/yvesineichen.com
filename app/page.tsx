@@ -347,7 +347,7 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div>
               <h3 className="text-lg font-semibold mb-2">
                 Open-source contributions
               </h3>
