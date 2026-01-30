@@ -346,6 +346,55 @@ export default function CV() {
                 ))}
               </div>
             </div>
+
+            <div className="space-y-6">
+              <h3 className="text-lg font-semibold mb-2">
+                Open-source contributions
+              </h3>
+              <p className="text-gray-700 mb-2">
+                Contributing to open-source projects including Zed (a
+                high-performance code editor). Focusing on understanding large
+                Rust codebases and participating in code review processes.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Rust", "Nix", "Git"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold mb-2">
+                  Rust Prototypes & Explorations
+                </h3>
+                <p className="text-gray-700 mb-2">
+                  Building a train-themed puzzle game to explore Bevy's Entity
+                  Component System architecture.
+                </p>
+                <p className="text-gray-700 mb-2">
+                  Developing a high-throughput data ingestion pipeline prototype
+                  using sqlx and rayon.
+                </p>
+                <p className="text-gray-700 mb-2">
+                  Building GPU-accelerated compute libraries with CUDA backends
+                  via bindgen and FFI, including Python bindings via PyO3.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Rust", "Bevy", "sqlx", "CUDA", "PyO3"].map((tech) => (
+                    <span
+                      key={tech}
+                      className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -413,8 +462,8 @@ export default function CV() {
           </div>
         </section>
 
-        <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6">
-          <p>last update: 21th November 2025</p>
+        <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6 hidden">
+          <p>last update: 28th January 2026</p>
         </footer>
       </div>
     </div>
