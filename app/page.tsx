@@ -366,33 +366,33 @@ export default function CV() {
                   </span>
                 ))}
               </div>
+            </div>
 
-              <div>
-                <h3 className="text-lg font-semibold mb-2">
-                  Rust Prototypes & Explorations
-                </h3>
-                <p className="text-gray-700 mb-2">
-                  Building a train-themed puzzle game to explore Bevy's Entity
-                  Component System architecture.
-                </p>
-                <p className="text-gray-700 mb-2">
-                  Developing a high-throughput data ingestion pipeline prototype
-                  using sqlx and rayon.
-                </p>
-                <p className="text-gray-700 mb-2">
-                  Building GPU-accelerated compute libraries with CUDA backends
-                  via bindgen and FFI, including Python bindings via PyO3.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {["Rust", "Bevy", "sqlx", "CUDA", "PyO3"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">
+                Rust Prototypes & Explorations
+              </h3>
+              <p className="text-gray-700 mb-2">
+                Building a train-themed puzzle game to explore Bevy's Entity
+                Component System architecture.
+              </p>
+              <p className="text-gray-700 mb-2">
+                Developing a high-throughput data ingestion pipeline prototype
+                using sqlx and rayon.
+              </p>
+              <p className="text-gray-700 mb-2">
+                Building GPU-accelerated compute libraries with CUDA backends
+                via bindgen and FFI, including Python bindings via PyO3.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Rust", "Bevy", "sqlx", "CUDA", "PyO3"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
