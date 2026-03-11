@@ -43,10 +43,10 @@ export default function CV() {
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Passionate about high-performance computing, distributed systems,
-            and system-level optimization, currently dedicating my time to
-            deepening my Rust expertise through personal projects, open-source
-            contributions, and continuous learning. Strong advocate for clean
-            code, test-driven development, using Git, Nix, and CI.
+            and system-level optimization. Since leaving my last role, I have
+            been building and shipping production Rust across start-up backends
+            and open-source contributions. Strong advocate for clean code,
+            test-driven development, using Git, Nix, and CI.
           </p>
           <p className="text-gray-700 leading-relaxed">
             What really drives me is the challenge of squeezing performance out
@@ -215,6 +215,7 @@ export default function CV() {
                 {[
                   "Linux/NixOS",
                   "Git",
+                  "Jujutsu",
                   "bash/zsh",
                   "Docker",
                   "AWS",
@@ -466,7 +467,7 @@ export default function CV() {
         </section>
 
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6 hidden">
-          <p>last update: 28th January 2026</p>
+          <p>last update: 11th March 2026</p>
         </footer>
       </div>
     </div>
