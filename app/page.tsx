@@ -1,250 +1,261 @@
 import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 
-// npm install react-icons --save
 export default function CV() {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-6 py-12">
-        <header className="mb-12">
-          <h1 className="text-4xl font-bold mb-2">Yves Ineichen</h1>
-          <p className="text-xl text-gray-600 mb-6">
-            Software Engineering · High Performance Computing · Deep Learning
-          </p>
+    <div
+      className="min-h-screen bg-[#111317] text-[#e2e2e8] antialiased selection:bg-[#69f2b1] selection:text-[#003823]"
+      style={{ fontFamily: "var(--font-inter), sans-serif" }}
+    >
+      {/* Decorative background element */}
+      <div className="fixed top-0 right-0 w-1/3 h-screen pointer-events-none opacity-[0.03] overflow-hidden z-[-1]">
+        <div className="absolute inset-0 bg-gradient-to-l from-[#69f2b1] to-transparent" />
+        <div className="h-full w-full flex items-center justify-center">
+          <span className="mono-header text-[40rem] font-black text-[#69f2b1] leading-none rotate-12 translate-x-1/2">
+            Y
+          </span>
+        </div>
+      </div>
 
-          <div className="flex flex-wrap gap-4 text-sm">
-            <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4" />
-              <span>Zurich, Switzerland</span>
+      <main className="max-w-6xl mx-auto px-6 py-16 md:py-32 grid grid-cols-1 md:grid-cols-12 gap-y-24">
+        {/* HEADER */}
+        <header className="md:col-span-12 mb-12">
+          <div className="flex flex-col gap-4">
+            <span className="technical-label uppercase">
+              programming on a 80286 started it all
+            </span>
+            <h1 className="mono-header text-5xl md:text-8xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase">
+              YVES INEICHEN
+            </h1>
+            <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2 text-[#69f2b1] font-medium tracking-tight text-xl md:text-2xl uppercase mono-header">
+              <span>Software Engineering</span>
+              <span className="text-[#3d4a41] select-none">/</span>
+              <span>HPC</span>
+              <span className="text-[#3d4a41] select-none">/</span>
+              <span>Deep Learning</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4" />
-              <span>iff@yvesineichen.com</span>
-            </div>
-            <div className="flex items-center gap-2">
+            <a
+              href="https://github.com/iff"
+              className="flex items-center gap-2 text-[#86948a] text-sm font-mono hover:text-[#e2e2e8] transition-colors no-underline mt-2"
+            >
               <Github className="w-4 h-4" />
-              <span>
-                <a href="https://github.com/iff">github.com/iff</a>
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Linkedin className="w-4 h-4" />
-              <span>
-                <a href="https://linkedin.com/in/yvesineichen">
-                  linkedin.com/in/yvesineichen
-                </a>
-              </span>
-            </div>
+              github.com/iff
+            </a>
           </div>
         </header>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 border-b border-gray-200 pb-2">
-            About
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Passionate about high-performance computing, distributed systems,
-            and system-level optimization. Since leaving my last role, I have
-            been building and shipping production Rust across start-up backends
-            and open-source contributions. Strong advocate for clean code,
-            test-driven development, using Git, Nix, and CI.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            What really drives me is the challenge of squeezing performance out
-            of complex systems. Programming isn't just my job - it's my passion,
-            and I love exploring the endless possibilities it offers.
-          </p>
+        {/* 00 — LEAD STATEMENT */}
+        <section className="md:col-span-4 lg:col-span-3 mt-16 md:mt-32">
+          <h2 className="technical-label">cat {"<<"}EOF</h2>
         </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Experience
-          </h2>
-
-          <div className="space-y-8">
-            <div>
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
-                <div>
-                  <h3 className="text-lg font-semibold">
-                    Principal Deep Learning Software Engineer
-                  </h3>
-                  <p className="text-gray-600">PTC Inc.</p>
-                </div>
-                <span className="text-sm text-gray-500">01/2018 - 08/2025</span>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>
-                  Computer vision: classification, pose estimation, pose
-                  refinement using TensorFlow and PyTorch.
-                </li>
-                <li>
-                  Managing single/multi-gpu experiments (as code) on Kubernetes.
-                </li>
-                <li>
-                  Optimizing/exporting networks for on device inference using
-                  LiteRT/CoreML.
-                </li>
-                <li>
-                  Responsible for software engineering practices: CI (gha),
-                  testing, release management and tooling.
-                </li>
-                <li>
-                  Technologies: Python (uv, ruff, basedpyright), Docker, AWS,
-                  convolutional neural networks, transformers.
-                </li>
-              </ul>
-            </div>
-
-            <div className="break-before-page">
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
-                <div>
-                  <h3 className="text-lg font-semibold">
-                    Postdoc and Research Staff Member
-                  </h3>
-                  <p className="text-gray-600">IBM Research - Zurich</p>
-                </div>
-                <span className="text-sm text-gray-500">02/2013 - 10/2016</span>
-              </div>
-              <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                <li>
-                  Contributing to{" "}
-                  <a href="https://github.com/xdata-skylark/libskylark">
-                    libskylark
-                  </a>
-                  : an open source software library for distributed randomized
-                  numerical linear algebra with applications to machine learning
-                  and statistical data analysis.
-                </li>
-                <li>Graph analytics.</li>
-                <li>Text analytics data pipeline.</li>
-                <li>
-                  Technologies: C++, OpenMP/MPI, Python, Java, Kafka, NLP,
-                  distributed computing.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Education
-          </h2>
-
-          <div>
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Ph.D. Computer Science
-                </h3>
-                <p className="text-gray-600">ETH Zurich</p>
-              </div>
-              <span className="text-sm text-gray-500">01/2010 - 02/2013</span>
-            </div>
-            <p className="text-gray-700">
-              Parallel multi-objective optimization with applications to
-              particle accelerator design
+        <section className="md:col-span-8 lg:col-span-9 mt-0 md:mt-32 mb-4">
+          <div className="max-w-3xl">
+            <p className="mono-header text-2xl md:text-4xl font-medium text-[#e2e2e8] leading-tight">
+              ENGINEERING SCALABLE SYSTEMS AT THE INTERSECTION OF{" "}
+              <span className="text-[#69f2b1]">HIGH-PERFORMANCE COMPUTING</span>{" "}
+              AND <span className="text-[#69f2b1]">MACHINE INTELLIGENCE</span>.
             </p>
-          </div>
-
-          <div>
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 mt-8">
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Master in Computer Science
-                </h3>
-                <p className="text-gray-600">ETH Zurich</p>
-              </div>
-              <span className="text-sm text-gray-500">08/2002 - 08/2008</span>
-            </div>
-            <p className="text-gray-700">
-              Master in computational science with a minor in compiler design
-              focusing on parallel numerical simulations (HPC)
+            <p className="text-[#c4c7c8] mt-8 text-lg border-l-2 border-[#3d4a41] pl-6">
+              Passionate about distributed systems and system-level optimization
+              — currently building and shipping production Rust across start-up
+              backends and open-source. The challenge of squeezing performance
+              out of complex systems never gets old.
             </p>
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Skills
+        {/* 01 — PROFESSIONAL HISTORY */}
+        <section className="md:col-span-4 lg:col-span-3">
+          <h2 className="technical-label sticky top-12 uppercase">
+            01_PROFESSIONAL_EXPERIENCE
           </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <h3 className="text-lg font-semibold mb-3">
-                Programming Languages
+        </section>
+        <section className="md:col-span-8 lg:col-span-9 space-y-20">
+          <div>
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[#69f2b1] text-sm">
+                2018 — 2025
+              </span>
+              <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
+                PTC_INC
               </h3>
-              <div className="flex flex-wrap gap-2">
-                {["Python", "C++", "Rust", "Nix"].map((skill) => (
+              <p className="text-[#c4c7c8]">
+                Principal Deep Learning Software Engineer
+              </p>
+              <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
+                <li>
+                  Researching and implementing state of the art{" "}
+                  <span className="text-[#69f2b1]">computer vision</span>{" "}
+                  architectures for classification, pose estimation, and pose
+                  refinement using TensorFlow and PyTorch. Introducing{" "}
+                  <span className="text-[#69f2b1]">multi-GPU parallelism</span>{" "}
+                  and quantization into production training.
+                </li>
+                <li>
+                  Optimizing networks for on-device inference using
+                  LiteRT/CoreML and responsible software engineering practices.
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {[
+                  "Python",
+                  "TensorFlow",
+                  "PyTorch",
+                  "Docker",
+                  "AWS",
+                  "Kubernetes",
+                ].map((tech) => (
                   <span
-                    key={skill}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
+                    key={tech}
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
                   >
-                    {skill}
+                    {tech}
                   </span>
                 ))}
               </div>
             </div>
+          </div>
 
+          <div>
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[#69f2b1] text-sm">
+                2013 — 2016
+              </span>
+              <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
+                IBM_RESEARCH
+              </h3>
+              <p className="text-[#c4c7c8]">
+                Postdoc and Research Staff Member
+              </p>
+              <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
+                <li>
+                  Developing distributed{" "}
+                  <span className="text-[#69f2b1]">
+                    randomized linear algebra
+                  </span>{" "}
+                  algorithms in{" "}
+                  <a
+                    href="https://github.com/xdata-skylark/libskylark"
+                    className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+                  >
+                    libskylark
+                  </a>
+                  , scaling numerical ML workloads across large clusters using
+                  MPI and OpenMP.
+                </li>
+                <li>
+                  Building graph and text analytics pipelines for large-scale
+                  data processing.
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {["C++", "OpenMP/MPI", "Python", "Java", "Kafka", "NLP"].map(
+                  (tech) => (
+                    <span
+                      key={tech}
+                      className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                    >
+                      {tech}
+                    </span>
+                  ),
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 02 — ACADEMIC & HONORS */}
+        <section className="md:col-span-4 lg:col-span-3">
+          <h2 className="technical-label sticky top-12 uppercase">
+            02_EDUCATION_&amp;_HONORS
+          </h2>
+        </section>
+        <section className="md:col-span-8 lg:col-span-9 space-y-12">
+          <div className="border-l-2 border-[#69f2b1] pl-8 py-2">
+            <h4 className="mono-header text-xl font-bold text-[#e2e2e8] uppercase tracking-tight">
+              PhD Computer Science
+            </h4>
+            <p className="text-[#86948a] text-sm font-mono mt-1">
+              ETH ZURICH | 2010 — 2013
+            </p>
+            <p className="text-[#c4c7c8] mt-4 leading-relaxed italic">
+              "Parallel multi-objective optimization with applications to
+              particle accelerator design"
+            </p>
+          </div>
+
+          <div className="border-l-2 border-[#3d4a41] pl-8 py-2">
+            <h4 className="mono-header text-xl font-bold text-[#e2e2e8] uppercase tracking-tight">
+              Master in Computer Science
+            </h4>
+            <p className="text-[#86948a] text-sm font-mono mt-1">
+              ETH ZURICH | 2002 — 2008
+            </p>
+            <p className="text-[#c4c7c8] mt-4 leading-relaxed">
+              <span className="text-[#69f2b1] uppercase">
+                Computational science
+              </span>{" "}
+              with a minor in{" "}
+              <span className="text-[#69f2b1] uppercase">compiler design</span>,
+              focusing on parallel numerical simulations (
+              <span className="text-[#69f2b1] uppercase">HPC</span>)
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
             <div>
-              <h3 className="text-lg font-semibold mb-3">HPC and ML</h3>
+              <span className="technical-label block mb-4 uppercase">
+                HONORS
+              </span>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-4">
+                  <span className="text-[#69f2b1] font-mono text-sm shrink-0">
+                    [01]
+                  </span>
+                  <span className="text-[#bbcabf] text-sm">
+                    Gordon Bell Prize — "An Extreme-Scale Implicit Solver for
+                    Complex-PDEs: Highly Heterogeneous Flow in Earth's Mantle"
+                    (2015)
+                  </span>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-[#69f2b1] font-mono text-sm shrink-0">
+                    [02]
+                  </span>
+                  <span className="text-[#bbcabf] text-sm">
+                    PRACE Award — "A Fast and Scalable Low Dimensional Solver
+                    for Charged Particle Dynamics in Large Particle
+                    Accelerators" (2012)
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <span className="technical-label block mb-4 uppercase">
+                SKILLS
+              </span>
               <div className="flex flex-wrap gap-2">
                 {[
+                  "Rust",
+                  "Python",
+                  "C++",
+                  "Nix",
                   "MPI",
                   "OpenMP",
                   "CUDA",
                   "TensorFlow",
                   "PyTorch",
-                  "CoreML/LiteRT/ONNX",
-                  "distributed computing",
-                ].map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-3">
-                Tools & Technologies
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  "Linux/NixOS",
-                  "Git",
-                  "Jujutsu",
-                  "bash/zsh",
+                  "CoreML/LiteRT",
                   "Docker",
                   "AWS",
-                  "Google Cloud",
-                ].map((skill) => (
+                  "Git/Jujutsu",
+                  "Linux/NixOS",
+                  "bash/zsh",
+                ].map((tech) => (
                   <span
-                    key={skill}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
+                    key={tech}
+                    className="text-xs font-mono text-[#c4c7c8] px-2 py-1 border border-[#3d4a41]"
                   >
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Soft Skills</h3>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  "Problem Solving",
-                  "Communication",
-                  "Code Review",
-                  "Mentoring",
-                ].map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded"
-                  >
-                    {skill}
+                    {tech}
                   </span>
                 ))}
               </div>
@@ -252,33 +263,42 @@ export default function CV() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Featured Projects
+        {/* 03 — SYSTEMS & EXPERIMENTS */}
+        <section className="md:col-span-4 lg:col-span-3">
+          <h2 className="technical-label sticky top-12 uppercase">
+            03_PROJECTS
           </h2>
-
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">ave.rs</h3>
-              <p className="text-gray-700 mb-2">
-                A Rust-based <a href="https://github.com/iff/ave.rs">backend</a>{" "}
-                that implements operational transformation (OT) for
-                collaborative applications, specifically designed to work with
-                multiple climbing gym management systems through a single API.
+        </section>
+        <section className="md:col-span-8 lg:col-span-9">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-[#3d4a41]">
+            <div className="bg-[#111317] p-8 border-b border-[#3d4a41] lg:border-r">
+              <h4 className="mono-header text-xl font-bold text-[#69f2b1] mb-3">
+                AVE.RS
+              </h4>
+              <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
+                Rust-based backend implementing operational transformation (OT)
+                for collaborative climbing gym management systems through a
+                single API.
               </p>
+              <a
+                href="https://github.com/iff/ave.rs"
+                className="flex items-center gap-2 text-[#69f2b1] text-xs font-mono hover:opacity-70 transition-opacity no-underline mb-4"
+              >
+                <Github className="w-3 h-3" />
+                github.com/iff/ave.rs
+              </a>
               <div className="flex flex-wrap gap-2">
                 {[
                   "Rust",
                   "TypeScript",
                   "Firestore",
                   "Nix",
-                  "Git",
                   "Docker",
-                  "Google Cloud",
+                  "GCP",
                 ].map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded"
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
                   >
                     {tech}
                   </span>
@@ -286,18 +306,26 @@ export default function CV() {
               </div>
             </div>
 
-            <div className="hidden">
-              <h3 className="text-lg font-semibold mb-2">muchi</h3>
-              <p className="text-gray-700 mb-2">
-                Wrapping <a href="https://mochi.cards">Mochi</a> API using
-                reqwest (no async) to synchronise my Roam Research flashcards to
-                Mochi.
+            <div className="bg-[#111317] p-8 border-b border-[#3d4a41]">
+              <h4 className="mono-header text-xl font-bold text-[#69f2b1] mb-3">
+                OSH-OXY
+              </h4>
+              <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
+                Simple fuzzy finder TUI to search shell histories, building on
+                ratatui and the skim fuzzy matcher algorithm.
               </p>
+              <a
+                href="https://github.com/iff/osh-oxy"
+                className="flex items-center gap-2 text-[#69f2b1] text-xs font-mono hover:opacity-70 transition-opacity no-underline mb-4"
+              >
+                <Github className="w-3 h-3" />
+                github.com/iff/osh-oxy
+              </a>
               <div className="flex flex-wrap gap-2">
                 {["Rust", "Nix", "Git"].map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
                   >
                     {tech}
                   </span>
@@ -305,45 +333,26 @@ export default function CV() {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold mb-2">osh-oxy</h3>
-              <p className="text-gray-700 mb-2">
-                Simple{" "}
-                <a href="https://github.com/iff/osh-oxy">fuzzy finder tui</a> to
-                search my shell histories building on{" "}
-                <a href="https://ratatui.rs/">ratatui</a> and{" "}
-                <a href="https://github.com/skim-rs/fuzzy-matcher">
-                  skim fuzzy matcher algorithm
-                </a>
-                .
+            <div className="bg-[#111317] p-8 border-b border-[#3d4a41] lg:border-b-0 lg:border-r">
+              <h4 className="mono-header text-xl font-bold text-[#69f2b1] mb-3">
+                NIHILISTIC-NVIM
+              </h4>
+              <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
+                My cosy neovim configuration with lots of customizations for a
+                comfortable development environment.
               </p>
-              <div className="flex flex-wrap gap-2">
-                {["Rust", "Nix", "Git"].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-2">nihilistic-nvim</h3>
-              <p className="text-gray-700 mb-2">
-                My cosy{" "}
-                <a href="https://github.com/iff/nihilistic-nvim">
-                  neovim configuration
-                </a>{" "}
-                with lots of customizations. Makes me feel at home when writing
-                code.
-              </p>
+              <a
+                href="https://github.com/iff/nihilistic-nvim"
+                className="flex items-center gap-2 text-[#69f2b1] text-xs font-mono hover:opacity-70 transition-opacity no-underline mb-4"
+              >
+                <Github className="w-3 h-3" />
+                github.com/iff/nihilistic-nvim
+              </a>
               <div className="flex flex-wrap gap-2">
                 {["Lua", "Nix", "Git"].map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 bg-orange-100 text-orange-700 text-xs rounded"
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
                   >
                     {tech}
                   </span>
@@ -351,48 +360,20 @@ export default function CV() {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold mb-2">
-                Open-source contributions
-              </h3>
-              <p className="text-gray-700 mb-2">
-                Contributing to open-source projects including Zed (a
-                high-performance code editor). Focusing on understanding large
-                Rust codebases and participating in code review processes.
+            <div className="bg-[#111317] p-8">
+              <h4 className="mono-header text-xl font-bold text-[#69f2b1] mb-3">
+                RUST_PROJECTS
+              </h4>
+              <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
+                Bevy ECS puzzle game, high-throughput data ingestion pipeline
+                via sqlx/rayon, GPU-accelerated compute libraries with CUDA
+                backends via bindgen/FFI and Python bindings via PyO3.
               </p>
               <div className="flex flex-wrap gap-2">
-                {["Rust", "Nix", "Git"].map((tech) => (
+                {["Rust", "Bevy", "CUDA", "PyO3", "sqlx"].map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-2">
-                Rust Prototypes & Explorations
-              </h3>
-              <p className="text-gray-700 mb-2">
-                Building a train-themed puzzle game to explore Bevy's Entity
-                Component System architecture.
-              </p>
-              <p className="text-gray-700 mb-2">
-                Developing a high-throughput data ingestion pipeline prototype
-                using sqlx and rayon.
-              </p>
-              <p className="text-gray-700 mb-2">
-                Building GPU-accelerated compute libraries with CUDA backends
-                via bindgen and FFI, including Python bindings via PyO3.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {["Rust", "Bevy", "sqlx", "CUDA", "PyO3"].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded"
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
                   >
                     {tech}
                   </span>
@@ -402,74 +383,90 @@ export default function CV() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Awards
+        {/* 04 — BEYOND CODE */}
+        <section className="md:col-span-4 lg:col-span-3">
+          <h2 className="technical-label sticky top-12 uppercase">
+            04_BEYOND_CODE
           </h2>
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
-            <div>
-              <h3 className="text-lg font-semibold">Gordon Bell Prize</h3>
-              <p className="text-gray-700 mb-2">
-                "An Extreme-Scale Implicit Solver for Complex-PDEs: Highly
-                Heterogeneous Flow in Earth’s Mantle"
-              </p>
-            </div>
-            <span className="text-sm text-gray-500">2015</span>
-          </div>
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 break-before-page">
-            <div>
-              <h3 className="text-lg font-semibold">PRACE Award</h3>
-              <p className="text-gray-700 mb-2">
-                "A Fast and Scalable Low Dimensional Solver for Charged Particle
-                Dynamics in Large Particle Accelerators"
-              </p>
-            </div>
-            <span className="text-sm text-gray-500">2012</span>
-          </div>
+        </section>
+        <section className="md:col-span-8 lg:col-span-9 space-y-6 text-[#c4c7c8] leading-relaxed">
+          <p>
+            Coffee enthusiast who co-founded a{" "}
+            <a
+              href="https://roestlabor.coffee"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              coffee roastery
+            </a>
+            , combining passion for quality coffee with entrepreneurial spirit.
+          </p>
+          <p>
+            Ergonomics optimizer focused on split keyboards (Moonlander and{" "}
+            <a
+              href="https://www.zsa.io/voyager"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              Voyager
+            </a>
+            ), constantly refining{" "}
+            <a
+              href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              layouts and keybindings
+            </a>{" "}
+            for efficiency and comfort.
+          </p>
+          <p>
+            Family life, bouldering, sport-climbing,{" "}
+            <a
+              href="https://iff.io"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              photography
+            </a>
+            , and nurturing curiosity by acquiring new skills and knowledge.
+          </p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 border-b border-gray-200 pb-2">
-            Beyond Code
-          </h2>
-
-          <div className="space-y-4 text-gray-700">
-            <div>
-              <p>
-                Coffee enthusiast who co-founded a{" "}
-                <a href="https://roestlabor.coffee">coffee roastery</a>,
-                combining passion for quality coffee with entrepreneurial
-                spirit.
-              </p>
+        {/* FOOTER */}
+        <footer className="md:col-span-12 pt-16 pb-8 border-t border-[#3d4a41] text-center">
+          <div className="flex flex-wrap justify-center items-center gap-4 technical-label text-[#86948a]">
+            <div className="flex items-center gap-2">
+              <Mail className="w-3 h-3" />
+              <a
+                href="mailto:iff@yvesineichen.com"
+                className="hover:text-[#69f2b1] transition-colors no-underline"
+              >
+                iff@yvesineichen.com
+              </a>
             </div>
-
-            <div>
-              <p>
-                Ergonomics optimizer with a focus on split keyboards (Moonlander
-                and <a href="https://www.zsa.io/voyager">Voyager</a>),
-                constantly refining{" "}
-                <a href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1">
-                  layouts and keybindings
-                </a>{" "}
-                for efficiency and comfort.
-              </p>
+            <span className="text-[#3d4a41] select-none">/</span>
+            <div className="flex items-center gap-2">
+              <Github className="w-3 h-3" />
+              <a
+                href="https://github.com/iff"
+                className="hover:text-[#69f2b1] transition-colors no-underline"
+              >
+                iff
+              </a>
             </div>
-
-            <div>
-              <p>
-                I value family life deeply, and I reserve quiet moments for
-                bouldering, sport‑climbing,{" "}
-                <a href="https://iff.io">photography</a>, reading, and nurturing
-                my curiosity by acquiring new skills and knowledge.
-              </p>
+            <span className="text-[#3d4a41] select-none">/</span>
+            <div className="flex items-center gap-2">
+              <Linkedin className="w-3 h-3" />
+              <a
+                href="https://linkedin.com/in/yvesineichen"
+                className="hover:text-[#69f2b1] transition-colors no-underline"
+              >
+                yvesineichen
+              </a>
             </div>
+            <span className="text-[#3d4a41] select-none">/</span>
+            <span className="opacity-50">© 2026</span>
           </div>
-        </section>
-
-        <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-6 hidden">
-          <p>last update: 11th March 2026</p>
+          <p className="technical-label opacity-50 mt-4">EOF</p>
         </footer>
-      </div>
+      </main>
     </div>
   );
 }

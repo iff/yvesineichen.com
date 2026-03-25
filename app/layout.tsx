@@ -1,5 +1,6 @@
 import type React from "react";
 import localFont from "next/font/local";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 
 const iaWriterMono = localFont({
@@ -23,6 +24,19 @@ const iaWriterMono = localFont({
   display: "swap",
 });
 
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-space-grotesk",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
 export const metadata = {
   title: "Yves Ineichen",
   description: "Personal CV",
@@ -34,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={iaWriterMono.className}>
+    <html lang="en" className={`${iaWriterMono.className} ${spaceGrotesk.variable} ${inter.variable}`}>
       <body className="bg-white text-gray-900 antialiased">{children}</body>
     </html>
   );

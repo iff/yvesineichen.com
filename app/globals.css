@@ -11,6 +11,19 @@ body {
   }
 }
 
+.mono-header {
+  font-family: var(--font-space-grotesk), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.technical-label {
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: #86948a;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
