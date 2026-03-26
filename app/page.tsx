@@ -276,9 +276,9 @@ export default function CV() {
                 AVE.RS
               </h4>
               <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
-                Rust-based backend implementing operational transformation (OT)
-                for collaborative climbing gym management systems through a
-                single API.
+                Async Rust backend using axum, implementing operational
+                transformation (OT) for collaborative climbing gym management
+                systems through a single API.
               </p>
               <a
                 href="https://github.com/iff/ave.rs"
