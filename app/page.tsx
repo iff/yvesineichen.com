@@ -1,4 +1,4 @@
-import { Mail, MapPin, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function CV() {
   return (
@@ -20,7 +20,10 @@ export default function CV() {
         {/* HEADER */}
         <header className="md:col-span-12 mb-12">
           <div className="flex flex-col gap-4">
-            <span className="technical-label uppercase">
+            <span
+              className="technical-label uppercase"
+              style={{ fontFamily: "var(--font-fira-code)" }}
+            >
               programming on a 80286 started it all
             </span>
             <h1 className="mono-header text-5xl md:text-8xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase">
@@ -45,7 +48,12 @@ export default function CV() {
 
         {/* 00 — LEAD STATEMENT */}
         <section className="md:col-span-4 lg:col-span-3 mt-16 md:mt-32">
-          <h2 className="technical-label">cat {"<<"}EOF</h2>
+          <h2
+            className="technical-label"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
+            cat {"<<"}EOF
+          </h2>
         </section>
         <section className="md:col-span-8 lg:col-span-9 mt-0 md:mt-32 mb-4">
           <div className="max-w-3xl">
@@ -65,7 +73,10 @@ export default function CV() {
 
         {/* 01 — PROFESSIONAL HISTORY */}
         <section className="md:col-span-4 lg:col-span-3">
-          <h2 className="technical-label sticky top-12 uppercase">
+          <h2
+            className="technical-label sticky top-12 uppercase"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
             01_PROFESSIONAL_EXPERIENCE
           </h2>
         </section>
@@ -165,7 +176,10 @@ export default function CV() {
 
         {/* 02 — ACADEMIC & HONORS */}
         <section className="md:col-span-4 lg:col-span-3">
-          <h2 className="technical-label sticky top-12 uppercase">
+          <h2
+            className="technical-label sticky top-12 uppercase"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
             02_EDUCATION_&amp;_HONORS
           </h2>
         </section>
@@ -265,7 +279,10 @@ export default function CV() {
 
         {/* 03 — SYSTEMS & EXPERIMENTS */}
         <section className="md:col-span-4 lg:col-span-3">
-          <h2 className="technical-label sticky top-12 uppercase">
+          <h2
+            className="technical-label sticky top-12 uppercase"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
             03_PROJECTS
           </h2>
         </section>
@@ -385,7 +402,10 @@ export default function CV() {
 
         {/* 04 — BEYOND CODE */}
         <section className="md:col-span-4 lg:col-span-3">
-          <h2 className="technical-label sticky top-12 uppercase">
+          <h2
+            className="technical-label sticky top-12 uppercase"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
             04_BEYOND_CODE
           </h2>
         </section>
@@ -464,7 +484,12 @@ export default function CV() {
             <span className="text-[#3d4a41] select-none">/</span>
             <span className="opacity-50">© 2026</span>
           </div>
-          <p className="technical-label opacity-50 mt-4">EOF</p>
+          <p
+            className="technical-label opacity-50 mt-4"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
+            EOF
+          </p>
         </footer>
       </main>
     </div>
