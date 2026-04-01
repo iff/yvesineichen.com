@@ -21,8 +21,9 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.nodejs
-            pkgs.nodePackages.pnpm
-
+            pkgs.pnpm
+            #
+            pkgs.biome
             pkgs.jq
             pkgs.pinact
           ];
