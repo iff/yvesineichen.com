@@ -23,8 +23,9 @@
             pkgs.nodejs
             pkgs.nodePackages.pnpm
 
-            pkgs.jq
             pkgs.biome
+            pkgs.jq
+            pkgs.pinact
           ];
         };
       }
