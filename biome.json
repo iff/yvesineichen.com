@@ -1,12 +1,21 @@
 {
   "files": {
-    "includes": ["**", "!**/.direnv", "!**/.next", "!**/node_modules", "!static/UI-Icon-master"]
+    "includes": [
+      "**",
+      "!**/.direnv",
+      "!**/.next",
+      "!**/node_modules",
+      "!static/UI-Icon-master"
+    ]
   },
-
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
   "formatter": {
     "enabled": false
   },
-
   "assist": {
     "actions": {
       "source": {
@@ -14,16 +23,13 @@
       }
     }
   },
-
   "overrides": [
     {
-      "includes": ["app/globals.css"],
       "linter": {
         "enabled": false
       }
     }
   ],
-
   "linter": {
     "rules": {
       "style": {
