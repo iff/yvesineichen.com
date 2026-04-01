@@ -18,7 +18,7 @@ jobs:
         with:
           version: "10.12.4"
       - run: pnpm install --frozen-lockfile
-      - run: biome check --reporter=github .
+      - run: ./node_modules/.bin/biome check --reporter=github .
 
   knip:
     if: github.event.pull_request.draft == false
