@@ -5,7 +5,7 @@
       "!**/.direnv",
       "!**/.next",
       "!**/node_modules",
-      "!**/fonts",
+      "!**/fonts"
     ]
   },
   "css": {
