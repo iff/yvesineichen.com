@@ -19,13 +19,14 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          buildInputs = [
-            pkgs.nodejs
-            pkgs.pnpm
+          buildInputs = with pkgs; [
+            nodejs
+            pnpm
             #
-            pkgs.biome
-            pkgs.jq
-            pkgs.pinact
+            biome
+            jq
+            pinact
+            typescript-language-server
           ];
         };
       }
