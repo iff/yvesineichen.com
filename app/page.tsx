@@ -84,7 +84,57 @@ export default function CV() {
           <div>
             <div className="flex flex-col gap-2">
               <span className="font-mono text-[#69f2b1] text-sm">
-                2018 — 2025
+                09/2025 — present
+              </span>
+              <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
+                FREELANCE_&amp;_STARTUP
+              </h3>
+              <p className="text-[#c4c7c8]">
+                Freelance Rust Engineer / Co-founding Engineer
+              </p>
+              <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
+                <li>
+                  Co-founding engineer of a startup, implementing and extending
+                  a{" "}
+                  <span className="text-[#69f2b1]">
+                    GPU-accelerated EDA simulation
+                  </span>{" "}
+                  library in <span className="text-[#69f2b1]">Rust</span> based
+                  on latest research, with CUDA backends via bindgen/FFI and
+                  Python bindings via PyO3.
+                </li>
+                <li>
+                  Building a high-performance async{" "}
+                  <span className="text-[#69f2b1]">
+                    data ingestion pipeline
+                  </span>{" "}
+                  in <span className="text-[#69f2b1]">Rust</span> using sqlx,
+                  targeting high-throughput ingestion for a startup backend.
+                </li>
+                <li>
+                  Developing a train-puzzle game using{" "}
+                  <span className="text-[#69f2b1]">Bevy ECS</span>, exploring
+                  game architecture patterns and data-driven design in{" "}
+                  <span className="text-[#69f2b1]">Rust</span>.
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {["Rust", "Bevy", "CUDA", "sqlx", "async"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[#69f2b1] text-sm">
+                2018 — 08/2025
               </span>
               <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
                 PTC_INC
@@ -115,6 +165,44 @@ export default function CV() {
                   "AWS",
                   "Kubernetes",
                 ].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[#69f2b1] text-sm">
+                2016 — 2017
+              </span>
+              <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
+                SELF-EMPLOYED
+              </h3>
+              <p className="text-[#c4c7c8]">Independent Engineer / Founder</p>
+              <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
+                <li>
+                  Developing a high-throughput{" "}
+                  <span className="text-[#69f2b1]">
+                    network analytics pipeline
+                  </span>{" "}
+                  as a proof-of-concept for own startup, focusing on real-time
+                  stream processing and scalable ingestion at line rate.
+                </li>
+                <li>
+                  Deepening and updating{" "}
+                  <span className="text-[#69f2b1]">deep learning</span> theory
+                  and hands-on framework knowledge to stay current with rapidly
+                  evolving research.
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {["Python", "TensorFlow", "Networking"].map((tech) => (
                   <span
                     key={tech}
                     className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
