@@ -467,15 +467,22 @@ export default function CV() {
 
             <div className="bg-[#111317] p-8">
               <h4 className="mono-header text-xl font-bold text-[#69f2b1] mb-3">
-                RUST_PROJECTS
+                FLAKERS
               </h4>
               <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
-                Bevy ECS puzzle game, high-throughput data ingestion pipeline
-                via sqlx/rayon, GPU-accelerated compute libraries with CUDA
-                backends via bindgen/FFI and Python bindings via PyO3.
+                Turns Nix flake lock update commits into human-readable markdown
+                changelogs with compare links, designed to run as a step in
+                GitHub Actions workflows.
               </p>
+              <a
+                href="https://github.com/iff/flakers"
+                className="flex items-center gap-2 text-[#69f2b1] text-xs font-mono hover:opacity-70 transition-opacity no-underline mb-4"
+              >
+                <Github className="w-3 h-3" />
+                github.com/iff/flakers
+              </a>
               <div className="flex flex-wrap gap-2">
-                {["Rust", "Bevy", "CUDA", "PyO3", "sqlx"].map((tech) => (
+                {["Rust", "Nix"].map((tech) => (
                   <span
                     key={tech}
                     className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
