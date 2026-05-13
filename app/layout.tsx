@@ -45,7 +45,33 @@ const inter = Inter({
 
 export const metadata = {
   title: "Yves Ineichen",
-  description: "Personal CV",
+  description:
+    "Passion for programming started on a 80286. Software Engineer specializing in Rust, HPC, and Deep Learning. PhD from ETH Zurich. Former IBM Research and PTC. Currently freelance.",
+  metadataBase: new URL("https://yvesineichen.com"),
+  openGraph: {
+    title: "Yves Ineichen",
+    description:
+      "Passion for programming started on a 80286. Software Engineer specializing in Rust, HPC, and Deep Learning. PhD from ETH Zurich. Former IBM Research and PTC. Currently freelance.",
+    url: "https://yvesineichen.com",
+    siteName: "Yves Ineichen",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/iff",
+        width: 460,
+        height: 460,
+        alt: "Yves Ineichen",
+      },
+    ],
+    locale: "en_US",
+    type: "profile",
+  },
+  twitter: {
+    card: "summary",
+    title: "Yves Ineichen",
+    description:
+      "Passion for programming started on a 80286. Software Engineer specializing in Rust, HPC, and Deep Learning. PhD from ETH Zurich. Former IBM Research and PTC. Currently freelance.",
+    images: ["https://avatars.githubusercontent.com/iff"],
+  },
 };
 
 export default function RootLayout({
@@ -54,7 +80,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${iaWriterMono.className} ${spaceGrotesk.variable} ${inter.variable} ${firaCode.variable}`}>
+    <html
+      lang="en"
+      className={`${iaWriterMono.className} ${spaceGrotesk.variable} ${inter.variable} ${firaCode.variable}`}
+    >
       <body className="bg-white text-gray-900 antialiased">{children}</body>
     </html>
   );
