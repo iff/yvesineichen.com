@@ -24,7 +24,7 @@ export default function CV() {
               className="technical-label uppercase"
               style={{ fontFamily: "var(--font-fira-code)" }}
             >
-              programming on a 80286 started it all
+              programming on an 80286 started it all
             </span>
             <h1 className="mono-header text-5xl md:text-8xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase">
               YVES INEICHEN
