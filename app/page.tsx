@@ -383,8 +383,7 @@ export default function CV() {
               </h4>
               <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
                 Async Rust backend using axum, implementing operational
-                transformation (OT) for collaborative climbing gym management
-                systems through a single API.
+                transformation (OT) for collaborative climbing gym management.
               </p>
               <a
                 href="https://github.com/iff/ave.rs"
@@ -514,7 +513,7 @@ export default function CV() {
             >
               coffee roastery
             </a>
-            , combining a passion for quality coffee with entrepreneurial
+            , combining a passion for quality coffee with an entrepreneurial
             spirit.
           </p>
           <p>
@@ -542,7 +541,7 @@ export default function CV() {
             >
               photography
             </a>
-            , and nurturing curiosity by acquiring new skills and knowledge.
+            , and continuous learning.
           </p>
         </section>
 
