@@ -64,9 +64,9 @@ export default function CV() {
             </p>
             <p className="text-[#c4c7c8] mt-8 text-lg border-l-2 border-[#3d4a41] pl-6">
               Passionate about distributed systems and system-level optimization
-              — currently building and shipping production Rust across start-up
-              backends and open-source. The challenge of squeezing performance
-              out of complex systems never gets old.
+              — currently building and shipping production Rust across startup
+              backends and open-source projects. The challenge of squeezing
+              performance out of complex systems never gets old.
             </p>
           </div>
         </section>
@@ -100,7 +100,7 @@ export default function CV() {
                     GPU-accelerated EDA simulation
                   </span>{" "}
                   library in <span className="text-[#69f2b1]">Rust</span> based
-                  on latest research, with CUDA backends via bindgen/FFI and
+                  on the latest research, with CUDA backends via bindgen/FFI and
                   Python bindings via PyO3.
                 </li>
                 <li>
@@ -144,16 +144,17 @@ export default function CV() {
               </p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Researching and implementing state of the art{" "}
+                  Researched and implemented state-of-the-art{" "}
                   <span className="text-[#69f2b1]">computer vision</span>{" "}
                   architectures for classification, pose estimation, and pose
-                  refinement using TensorFlow and PyTorch. Introducing{" "}
+                  refinement using TensorFlow and PyTorch. Introduced{" "}
                   <span className="text-[#69f2b1]">multi-GPU parallelism</span>{" "}
                   and quantization into production training.
                 </li>
                 <li>
-                  Optimizing networks for on-device inference using
-                  LiteRT/CoreML and responsible software engineering practices.
+                  Optimized networks for on-device inference using
+                  LiteRT/CoreML, while leading the team's software engineering
+                  practices.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -187,18 +188,18 @@ export default function CV() {
               <p className="text-[#c4c7c8]">Independent Engineer / Founder</p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Developing a high-throughput{" "}
+                  Developed a high-throughput{" "}
                   <span className="text-[#69f2b1]">
                     network analytics pipeline
                   </span>{" "}
-                  as a proof-of-concept for own startup, focusing on real-time
-                  stream processing and scalable ingestion at line rate.
+                  as a proof-of-concept for my own startup, focusing on
+                  real-time stream processing and scalable ingestion at line
+                  rate.
                 </li>
                 <li>
-                  Deepening and updating{" "}
-                  <span className="text-[#69f2b1]">deep learning</span> theory
-                  and hands-on framework knowledge to stay current with rapidly
-                  evolving research.
+                  Deepened <span className="text-[#69f2b1]">deep learning</span>{" "}
+                  theory and hands-on framework knowledge to stay current with
+                  rapidly evolving research.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -227,7 +228,7 @@ export default function CV() {
               </p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Developing distributed{" "}
+                  Developed distributed{" "}
                   <span className="text-[#69f2b1]">
                     randomized linear algebra
                   </span>{" "}
@@ -242,8 +243,8 @@ export default function CV() {
                   MPI and OpenMP.
                 </li>
                 <li>
-                  Building graph and text analytics pipelines for large-scale
-                  data processing.
+                  Built graph and text analytics pipelines for large-scale data
+                  processing.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -274,7 +275,7 @@ export default function CV() {
         <section className="md:col-span-8 lg:col-span-9 space-y-12">
           <div className="border-l-2 border-[#69f2b1] pl-8 py-2">
             <h4 className="mono-header text-xl font-bold text-[#e2e2e8] uppercase tracking-tight">
-              PhD Computer Science
+              PhD in Computer Science
             </h4>
             <p className="text-[#86948a] text-sm font-mono mt-1">
               ETH ZURICH | 2010 — 2013
@@ -287,7 +288,7 @@ export default function CV() {
 
           <div className="border-l-2 border-[#3d4a41] pl-8 py-2">
             <h4 className="mono-header text-xl font-bold text-[#e2e2e8] uppercase tracking-tight">
-              Master in Computer Science
+              Master's in Computer Science
             </h4>
             <p className="text-[#86948a] text-sm font-mono mt-1">
               ETH ZURICH | 2002 — 2008
@@ -299,7 +300,7 @@ export default function CV() {
               with a minor in{" "}
               <span className="text-[#69f2b1] uppercase">compiler design</span>,
               focusing on parallel numerical simulations (
-              <span className="text-[#69f2b1] uppercase">HPC</span>)
+              <span className="text-[#69f2b1] uppercase">HPC</span>).
             </p>
           </div>
 
@@ -416,7 +417,7 @@ export default function CV() {
                 OSH-OXY
               </h4>
               <p className="text-[#c4c7c8] text-sm leading-relaxed mb-4">
-                Simple fuzzy finder TUI to search shell histories, building on
+                Simple fuzzy finder TUI to search shell history, building on
                 ratatui and the skim fuzzy matcher algorithm.
               </p>
               <a
@@ -513,7 +514,8 @@ export default function CV() {
             >
               coffee roastery
             </a>
-            , combining passion for quality coffee with entrepreneurial spirit.
+            , combining a passion for quality coffee with entrepreneurial
+            spirit.
           </p>
           <p>
             Ergonomics optimizer focused on split keyboards (Moonlander and{" "}
