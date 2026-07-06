@@ -97,7 +97,7 @@ export default function CV() {
                   Co-founding engineer of a startup, implementing and extending
                   a{" "}
                   <span className="text-[#69f2b1]">
-                    GPU-accelerated EDA simulation
+                    hardware-accelerated EDA simulation
                   </span>{" "}
                   library in <span className="text-[#69f2b1]">Rust</span> based
                   on the latest research, with CUDA backends via bindgen/FFI and
