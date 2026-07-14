@@ -94,14 +94,11 @@ export default function CV() {
               </p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Co-founding engineer of a startup, implementing and extending
-                  a{" "}
+                  Co-founding engineer of a startup, implementing{" "}
                   <span className="text-[#69f2b1]">
                     hardware-accelerated EDA simulation
                   </span>{" "}
-                  library in <span className="text-[#69f2b1]">Rust</span> based
-                  on the latest research, with CUDA backends via bindgen/FFI and
-                  Python bindings via PyO3.
+                  in <span className="text-[#69f2b1]">Rust</span>.
                 </li>
                 <li>
                   Building a high-performance async{" "}
@@ -119,14 +116,16 @@ export default function CV() {
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
-                {["Rust", "Bevy", "CUDA", "sqlx", "async"].map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                {["Rust", "Bevy", "CUDA", "MLIR", "sqlx", "async"].map(
+                  (tech) => (
+                    <span
+                      key={tech}
+                      className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                    >
+                      {tech}
+                    </span>
+                  ),
+                )}
               </div>
             </div>
           </div>
