@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Mail, Github, Linkedin } from "lucide-react";
 
 export default function CV() {
@@ -540,6 +541,13 @@ export default function CV() {
             >
               photography
             </a>
+            ,{" "}
+            <Link
+              href="/books"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              reading
+            </Link>
             , and continuous learning.
           </p>
         </section>
