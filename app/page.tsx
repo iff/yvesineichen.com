@@ -534,7 +534,7 @@ export default function CV() {
             for efficiency and comfort.
           </p>
           <p>
-            Family life, bouldering, sport-climbing,{" "}
+            Bouldering, sport-climbing,{" "}
             <a
               href="https://iff.io"
               className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
