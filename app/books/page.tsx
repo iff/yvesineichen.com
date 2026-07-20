@@ -45,11 +45,6 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
         author: "qntm",
       },
       {
-        title: "Chip War: The Fight for the World's Most Critical Technology",
-        author: "Chris Miller",
-        standout: true,
-      },
-      {
         title:
           "Hunt, Gather, Parent: What Ancient Cultures Can Teach us about Rising Children",
         author: "Michaeleen Doucleff",
@@ -70,6 +65,11 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
         author: "Dennis Taylor",
       },
       {
+        title: "Chip War: The Fight for the World's Most Critical Technology",
+        author: "Chris Miller",
+        standout: true,
+      },
+      {
         title: "Bravery: Chasing Dreams, Befriending Pain, and Other Big Ideas",
         author: "Alexi Pappas",
         standout: true,
@@ -77,10 +77,6 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
       {
         title: "Tomorrow, and Tomorrow, and Tomorrow: A novel",
         author: "Gabrielle Zevin",
-      },
-      {
-        title: "Novelist as a Vocation: An exploration of a writer's life",
-        author: "Haruki Murakami",
       },
     ],
   },
@@ -97,11 +93,19 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
         title: "Skin in the Game: Hidden Asymmetries in Daily Life",
         author: "Nassim Nicholas Taleb",
       },
+      {
+        title: "Thinking in Systems",
+        author: "Donella Meadows",
+      },
     ],
   },
   {
     year: 2022,
     books: [
+      {
+        title: "Novelist as a Vocation: An exploration of a writer's life",
+        author: "Haruki Murakami",
+      },
       {
         title: "Worth the Candle",
         author: "Alexander Wales",
@@ -110,6 +114,15 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
         title: "The Expanse (series)",
         author: "James Corey",
       },
+      {
+        title: "Stories of Your Life and Others",
+        author: "Ted Chiang",
+      },
+    ],
+  },
+  {
+    year: 2021,
+    books: [
       {
         title: "The Dawn of Everything: A New History of Humanity",
         author: "David Graeber",
@@ -120,8 +133,8 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
         author: "Julia Galef",
       },
       {
-        title: "Stories of Your Life and Others",
-        author: "Ted Chiang",
+        title: "The Science of Can and Can't",
+        author: "Chiara Marletto",
       },
     ],
   },
