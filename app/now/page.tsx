@@ -16,6 +16,10 @@ const nowItems: ReactNode[] = [
       className={linkClass}
     >
       natural number game
+    </a>{" "}
+    in{" "}
+    <a href="https://github.com/iff/nng" className={linkClass}>
+      nvim
     </a>
   </>,
   <>
