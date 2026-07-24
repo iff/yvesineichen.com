@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Fragment } from "react";
 
 type Book = {
   title: string;
@@ -293,9 +294,9 @@ export default function Books() {
         </div>
       </div>
 
-      <main className="max-w-4xl mx-auto px-6 py-16 md:py-32">
+      <main className="max-w-6xl mx-auto px-6 py-16 md:py-32 grid grid-cols-1 md:grid-cols-12 gap-y-16">
         {/* HEADER */}
-        <header className="mb-16 md:mb-24">
+        <header className="md:col-span-12 mb-12">
           <Link
             href="/"
             className="technical-label uppercase hover:text-[#69f2b1] transition-colors no-underline"
@@ -306,7 +307,7 @@ export default function Books() {
           <h1 className="mono-header text-5xl md:text-7xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase mt-4">
             BOOKS
           </h1>
-          <p className="text-[#c4c7c8] mt-4 text-lg">
+          <p className="text-[#c4c7c8] mt-4 text-lg max-w-3xl">
             A curated list of what I've read, by year.{" "}
             <span className="text-[#69f2b1]">Highlighted</span> ones left a
             mark.
@@ -314,12 +315,17 @@ export default function Books() {
         </header>
 
         {/* YEARS */}
-        <div className="space-y-16">
-          {booksByYear.map(({ year, books }) => (
-            <section key={year}>
-              <h2 className="mono-header text-3xl md:text-4xl font-bold text-[#e2e2e8] mb-6 pb-2 border-b border-[#3d4a41]">
+        {booksByYear.map(({ year, books }) => (
+          <Fragment key={year}>
+            <section className="md:col-span-4 lg:col-span-3">
+              <h2
+                className="technical-label sticky top-12 uppercase"
+                style={{ fontFamily: "var(--font-fira-code)" }}
+              >
                 {year}
               </h2>
+            </section>
+            <section className="md:col-span-8 lg:col-span-9">
               <ul className="space-y-3">
                 {books.map((book) => (
                   <li
@@ -341,11 +347,11 @@ export default function Books() {
                 ))}
               </ul>
             </section>
-          ))}
-        </div>
+          </Fragment>
+        ))}
 
         {/* FOOTER */}
-        <footer className="pt-16 mt-16 border-t border-[#3d4a41] text-center">
+        <footer className="md:col-span-12 pt-16 mt-16 border-t border-[#3d4a41] text-center">
           <p
             className="technical-label opacity-50"
             style={{ fontFamily: "var(--font-fira-code)" }}
