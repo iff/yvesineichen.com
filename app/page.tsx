@@ -85,7 +85,10 @@ export default function CV() {
           <div>
             <div className="flex flex-col gap-2">
               <span className="font-mono text-[#69f2b1] text-sm">
-                09/2025 — present
+                09/2025 —{" "}
+                <Link href="/now" className="underline hover:no-underline">
+                  present
+                </Link>
               </span>
               <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
                 FREELANCE_&amp;_STARTUP
