@@ -1,5 +1,6 @@
 // Personal websites often have a link that says “now” that tells you what this person is focused on at this point in their life. It’s called a “now page”.
 import type { ReactNode } from "react";
+import Link from "next/link";
 
 const linkClass =
   "text-[#69f2b1] underline-offset-4 hover:underline no-underline";
@@ -60,7 +61,14 @@ export default function Now() {
       <main className="max-w-4xl mx-auto px-6 py-16 md:py-32">
         {/* HEADER */}
         <header className="mb-16 md:mb-24">
-          <h1 className="mono-header text-5xl md:text-7xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase">
+          <Link
+            href="/"
+            className="technical-label uppercase hover:text-[#69f2b1] transition-colors no-underline"
+            style={{ fontFamily: "var(--font-fira-code)" }}
+          >
+            ← yves ineichen
+          </Link>
+          <h1 className="mono-header text-5xl md:text-7xl font-bold tracking-tighter text-[#e2e2e8] leading-none uppercase mt-4">
             NOW
           </h1>
           <p className="text-[#c4c7c8] mt-4 text-lg max-w-3xl">
