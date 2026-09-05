@@ -7,40 +7,28 @@ const linkClass =
 
 const nowItems: ReactNode[] = [
   <>
-    learning{" "}
-    <a href="https://lean-lang.org/" className={linkClass}>
-      Lean
-    </a>{" "}
-    by working my way through the{" "}
-    <a
-      href="https://adam.math.hhu.de/#/g/leanprover-community/nng4"
-      className={linkClass}
-    >
-      natural number game
-    </a>{" "}
-    in{" "}
-    <a href="https://github.com/iff/nng" className={linkClass}>
-      nvim
-    </a>
+    deep dive into dependent types introduced by Martin-Löf and the propositions
+    as types concept
   </>,
   <>
-    building{" "}
-    <a href="https://verion-eda.com/" className={linkClass}>
-      better RTL
+    working my way through{" "}
+    <a href="https://mlir.llvm.org/" className={linkClass}>
+      MLIR
     </a>{" "}
-    tools
+    concepts to write passes and dialects for our compiler
   </>,
   <>
-    working on a train-puzzle game in{" "}
+    revisiting controls and messages in{" "}
     <a href="https://bevy.org" className={linkClass}>
       Bevy
     </a>
+    to improve train interactions
   </>,
   <>understanding rustc, hoping to start contributing small fixes</>,
 ];
 
 const publishedOn = "2026-07-24";
-const updatedOn = "2026-07-24";
+const updatedOn = "2026-09-05";
 
 export default function Now() {
   return (
