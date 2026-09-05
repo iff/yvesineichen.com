@@ -21,7 +21,7 @@ const nowItems: ReactNode[] = [
     revisiting controls and messages in{" "}
     <a href="https://bevy.org" className={linkClass}>
       Bevy
-    </a>
+    </a>{" "}
     to improve train interactions
   </>,
   <>understanding rustc, hoping to start contributing small fixes</>,
