@@ -59,9 +59,8 @@ export default function CV() {
         <section className="md:col-span-8 lg:col-span-9 mt-0 md:mt-32 mb-4">
           <div className="max-w-3xl">
             <p className="mono-header text-2xl md:text-4xl font-medium text-[#e2e2e8] leading-tight">
-              ENGINEERING SCALABLE SYSTEMS AT THE INTERSECTION OF{" "}
-              <span className="text-[#69f2b1]">HIGH-PERFORMANCE COMPUTING</span>{" "}
-              AND <span className="text-[#69f2b1]">MACHINE INTELLIGENCE</span>.
+              TRIED TO MAKE COMPUTERS DO THINGS SINCE CHILDHOOD. LATELY: A
+              COMPILER, IN <span className="text-[#69f2b1]">RUST</span>.
             </p>
             <p className="text-[#c4c7c8] mt-8 text-lg border-l-2 border-[#3d4a41] pl-6">
               Passionate about distributed systems and system-level optimization
