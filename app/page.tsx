@@ -120,9 +120,9 @@ export default function CV() {
                 09/2025 — 12/2025
               </span>
               <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
-                FREELANCE
+                SELF-EMPLOYED
               </h3>
-              <p className="text-[#c4c7c8]">Freelance Rust Engineer</p>
+              <p className="text-[#c4c7c8]">Independent Engineer</p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
                   Built a high-performance async{" "}
@@ -205,7 +205,7 @@ export default function CV() {
               <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
                 SELF-EMPLOYED
               </h3>
-              <p className="text-[#c4c7c8]">Independent Engineer / Founder</p>
+              <p className="text-[#c4c7c8]">Independent Engineer</p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
                   Developed a high-throughput{" "}
