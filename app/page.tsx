@@ -64,9 +64,8 @@ export default function CV() {
             </p>
             <p className="text-[#c4c7c8] mt-8 text-lg border-l-2 border-[#3d4a41] pl-6">
               Passionate about distributed systems and system-level optimization
-              — currently building and shipping production Rust across startup
-              backends and open-source projects. The challenge of squeezing
-              performance out of complex systems never gets old.
+              — currently building and shipping production Rust. The challenge
+              of squeezing performance out of complex systems never gets old.
             </p>
           </div>
         </section>
@@ -84,51 +83,71 @@ export default function CV() {
           <div>
             <div className="flex flex-col gap-2">
               <span className="font-mono text-[#69f2b1] text-sm">
-                09/2025 —{" "}
+                01/2026 —{" "}
                 <Link href="/now" className="no-underline hover:underline">
                   present
                 </Link>
               </span>
               <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
-                FREELANCE_&amp;_STARTUP
+                VERION
               </h3>
-              <p className="text-[#c4c7c8]">
-                Freelance Rust Engineer / Co-founding Engineer
-              </p>
+              <p className="text-[#c4c7c8]">Co-founding Engineer</p>
               <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Co-founding engineer of a startup, implementing{" "}
+                  Exploring{" "}
                   <span className="text-[#69f2b1]">
                     hardware-accelerated EDA simulation
                   </span>{" "}
                   in <span className="text-[#69f2b1]">Rust</span>.
                 </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {["Rust", "CUDA", "MLIR"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[#69f2b1] text-sm">
+                09/2025 — 12/2025
+              </span>
+              <h3 className="mono-header text-3xl font-bold text-[#e2e2e8]">
+                FREELANCE
+              </h3>
+              <p className="text-[#c4c7c8]">Freelance Rust Engineer</p>
+              <ul className="text-[#c4c7c8] text-sm space-y-2 mt-2 border-l border-[#3d4a41] pl-4">
                 <li>
-                  Building a high-performance async{" "}
+                  Built a high-performance async{" "}
                   <span className="text-[#69f2b1]">
                     data ingestion pipeline
                   </span>{" "}
-                  in <span className="text-[#69f2b1]">Rust</span> using sqlx,
-                  targeting high-throughput ingestion for a startup backend.
+                  in <span className="text-[#69f2b1]">Rust</span> with sqlx for
+                  a startup backend.
                 </li>
                 <li>
-                  Developing a train-puzzle game using{" "}
-                  <span className="text-[#69f2b1]">Bevy ECS</span>, exploring
-                  game architecture patterns and data-driven design in{" "}
-                  <span className="text-[#69f2b1]">Rust</span>.
+                  Ongoing: a train-puzzle game built on{" "}
+                  <span className="text-[#69f2b1]">Bevy ECS</span> in{" "}
+                  <span className="text-[#69f2b1]">Rust</span> learning ECS
+                  scheduling and data-driven design.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
-                {["Rust", "Bevy", "CUDA", "MLIR", "sqlx", "async"].map(
-                  (tech) => (
-                    <span
-                      key={tech}
-                      className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
-                    >
-                      {tech}
-                    </span>
-                  ),
-                )}
+                {["Rust", "Bevy", "sqlx", "async"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-2 py-1 bg-[#333539] text-[10px] text-[#bbcabf] font-mono uppercase tracking-widest"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
@@ -154,9 +173,8 @@ export default function CV() {
                   and quantization into production training.
                 </li>
                 <li>
-                  Optimized networks for on-device inference using
-                  LiteRT/CoreML, while leading the team's software engineering
-                  practices.
+                  Optimized networks for on-device inference using LiteRT/CoreML
+                  and leading the team's software engineering practices.
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2 mt-3">
@@ -194,9 +212,8 @@ export default function CV() {
                   <span className="text-[#69f2b1]">
                     network analytics pipeline
                   </span>{" "}
-                  as a proof-of-concept for my own startup, focusing on
-                  real-time stream processing and scalable ingestion at line
-                  rate.
+                  as a proof-of-concept, focusing on real-time stream
+                  processing.
                 </li>
                 <li>
                   Deepened <span className="text-[#69f2b1]">deep learning</span>{" "}
@@ -343,6 +360,7 @@ export default function CV() {
                   "Rust",
                   "Python",
                   "C++",
+                  "Lean",
                   "Nix",
                   "MPI",
                   "OpenMP",
@@ -508,32 +526,31 @@ export default function CV() {
         </section>
         <section className="md:col-span-8 lg:col-span-9 space-y-6 text-[#c4c7c8] leading-relaxed">
           <p>
-            Coffee enthusiast who co-founded a{" "}
+            Co-founded a{" "}
             <a
               href="https://roestlabor.coffee"
               className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
             >
               coffee roastery
-            </a>
-            , combining a passion for quality coffee with an entrepreneurial
-            spirit.
+            </a>{" "}
+            — still experimenting with coffee.
           </p>
           <p>
-            Ergonomics optimizer focused on split keyboards (Moonlander and{" "}
+            Iterating on my{" "}
+            <a
+              href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1"
+              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
+            >
+              split-keyboard layout
+            </a>{" "}
+            (Moonlander and{" "}
             <a
               href="https://www.zsa.io/voyager"
               className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
             >
               Voyager
             </a>
-            ), constantly refining{" "}
-            <a
-              href="https://configure.zsa.io/voyager/layouts/brY5x/latest/1"
-              className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
-            >
-              layouts and keybindings
-            </a>{" "}
-            for efficiency and comfort.
+            ).
           </p>
           <p>
             Bouldering, sport-climbing,{" "}
@@ -543,14 +560,14 @@ export default function CV() {
             >
               photography
             </a>
-            ,{" "}
+            , and{" "}
             <Link
               href="/books"
               className="text-[#69f2b1] underline-offset-4 hover:underline no-underline"
             >
               reading
             </Link>
-            , and continuous learning.
+            .
           </p>
         </section>
 
