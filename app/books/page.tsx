@@ -12,8 +12,16 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
     year: 2026,
     books: [
       {
+        title: "Children of Time",
+        author: "Adrian Tchaikovsky",
+      },
+      {
         title: "Breakneck: China's Quest to Engineer the Future",
         author: "Dan Wang",
+      },
+      {
+        title: "There are Rivers in the Sky",
+        author: "Elif Shafak",
       },
       {
         title:
