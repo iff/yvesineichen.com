@@ -12,7 +12,7 @@ const booksByYear: { year: number | string; books: Book[] }[] = [
     year: 2026,
     books: [
       {
-        title: "* Breakneck: China's Quest to Engineer the Future",
+        title: "Breakneck: China's Quest to Engineer the Future",
         author: "Dan Wang",
       },
       {
